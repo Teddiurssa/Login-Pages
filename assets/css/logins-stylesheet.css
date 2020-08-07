@@ -19,9 +19,8 @@ header {
 }
 
 header svg {
-    margin-top: 29px;
-    margin-left: 52px;
-}
+    margin-top: 30px;
+  }
 
 .heading-name h4 {
     margin-top: 98px;
@@ -29,6 +28,7 @@ header svg {
     line-height: 28px;
     color: #4D4D4D;
     font-family: "Averta-Bold";
+    margin-left: 10px;
 }
 
 .adjust-font-size p {
@@ -91,6 +91,10 @@ header svg {
 }
 
 @media (max-width:500px) {
+     header svg {
+    margin-left: 50px;
+   
+  }
     .adjust-font-size p {
         margin-top: 30px;
     }
@@ -98,6 +102,7 @@ header svg {
     .heading-name h4 {
         margin-top: 40px;
         margin-bottom: 30px;
+        margin-left: 0px;
     }
 
     .zuri-train {
@@ -106,10 +111,35 @@ header svg {
 
     .zuri-intern {
         margin-left: 0px;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .zuri-intern:hover,
+    .zuri-train:hover {
+        border: 0.5px solid #F8444F;
+    }
+}
+
+@media (max-width: 900px) {
+    header svg {
+    margin-left: 50px;
+     }
+    
+    .zuri-intern {
+        margin-left: 0px;
+        margin-bottom: 30px;
         margin-top: 16px;
     }
 
+    .zuri-train {
+        margin-top: 16px;
+    }
+
+    .zuri-intern:hover,
+    .zuri-train:hover {
+        border: 0.5px solid #F8444F;
+    }
 }
 
 /*===== Internship Login ======*/
